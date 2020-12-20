@@ -1,0 +1,57 @@
+.timer {
+    border: 1px solid #6d6d6d;
+    border-radius: 4px;
+  
+    padding: 12px 24px;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+  
+.timer__title {
+  color: yellow;
+  text-align: center;
+  font-family: 'Niconne', cursive;
+  font-size:2rem;
+  margin-bottom: 16px;
+}
+.timer__project {
+    color: #d52e3f;
+    text-decoration: none;
+    font-family: 'Niconne', cursive;
+    font-size: 1.2rem;
+}
+  
+.timer__time {
+    color: #d52e3f;
+    text-decoration: none;
+    font-family: 'Niconne', cursive;
+    font-size: 1.2rem;
+}
+  
+.timer__button-group {
+  margin-top: 16px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  
+}
+.timer__button {
+  margin-left: 5px;
+  
+}
+  
+.timer label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  text-align: center;
+}
+  
+.timer input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+  

@@ -28,7 +28,7 @@ export const newTimer = (attrs = {}) => {
     project: attrs.project || 'Project',
     id: uuidv4(),
     elapsed: 0,
-    isRunning: false,
+    isRunning: true,
   };
 
   return timer;
